@@ -33,6 +33,7 @@ function shuffleCards() {
 
 function generateCards() {
   for (let card of cards) {
+    console.log(card.image)
     const cardElement = document.createElement("div");
     cardElement.classList.add("card");
     cardElement.setAttribute("data-name", card.name);
